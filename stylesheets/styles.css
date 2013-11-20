@@ -532,7 +532,7 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #E2E2E2;;
+  color: #F3F3F3;
   background: rgb(136, 140, 151);
   /*font-weight: normal;
   background-attachment: fixed !important;
@@ -580,13 +580,13 @@ h3 {
 }
 
 a {
-  color: #0A3199;
+  color: #CDEEFD;
   font-weight: 400;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1F00FF;
+  color: #A6E3FF;
 }
 
 a small {
