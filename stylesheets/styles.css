@@ -834,6 +834,10 @@ section #title .credits.right {
   margin: 50px auto;
 }
 
+.socials h2 {
+  text-align: center;
+}
+
 @media print, screen and (max-width: 720px) {
   #title .credits {
     display: block;
