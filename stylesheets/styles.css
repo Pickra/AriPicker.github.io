@@ -546,7 +546,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-  margin: 0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
@@ -557,6 +556,7 @@ p, ul, ol, table, pre, dl {
 
 h1, h2, h3 {
   line-height: 2;
+  color: #003750;
 }
 
 h1 {
@@ -836,6 +836,10 @@ section #title .credits.right {
 
 .socials h2 {
   text-align: center;
+}
+
+.name {
+  margin-bottom: 40px;
 }
 
 @media print, screen and (max-width: 720px) {
