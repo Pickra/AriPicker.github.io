@@ -531,9 +531,10 @@ table {
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 20px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 20px/1.5 "Merriweather","OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #F3F3F3;
   background: rgb(136, 140, 151);
+  -webkit-font-smoothing: antialiased;
   /*font-weight: normal;
   background-attachment: fixed !important;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
@@ -546,7 +547,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -556,7 +557,7 @@ p, ul, ol, table, pre, dl {
 
 h1, h2, h3 {
   line-height: 2;
-  color: #003750;
+  color: #1E2C33;
 }
 
 h1 {
@@ -573,8 +574,8 @@ h4, h5, h6 {
 
 h3 {
   font-size: 25px;
-  line-height: 35px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  line-height: 27px;
+  font-family: 'Merriweather', 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
   color: white;
 }
@@ -838,8 +839,14 @@ section #title .credits.right {
   text-align: center;
 }
 
+.buddy {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
 .name {
-  margin-bottom: 40px;
+  text-align: center;
+  margin: 0 0 40px;
 }
 
 @media print, screen and (max-width: 720px) {
