@@ -636,6 +636,15 @@ strong {
 
 section img {
   max-width: 100%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.bio {
+  width: 642px;
+  float: left;
+  margin: 6px 17px 50px;
 }
 
 blockquote {
@@ -847,7 +856,7 @@ section #title .credits.right {
 
 .socials {
   width: 204px;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .socials h2 {
